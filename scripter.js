@@ -1,0 +1,1 @@
+prompt("Hey man, view in full screen to have a more filling experience,yah?")
