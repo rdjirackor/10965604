@@ -39,8 +39,8 @@ p{font-size: 25px;}
 <body>
 
     <h1>Your Car Purchase Advisor</h1>
-    <div id="par"><h4>Your one stop purchase advisor for the best gosh darnest cars</h4>
-    <h6>Powered by Richard Djirackor</h6>
+    <div id="par"><h4>Unleash the Power of your Dream Ride: Your Ultimate Guide to the Top Cars</h4>
+   
     <p><a href="contact.html">contact>></a><a href="address.html">address</a>
     </div>
     <h2>2022 Models</h2>
@@ -94,14 +94,15 @@ p{font-size: 25px;}
  
  <h3>Suscribe to our free newsletter</h3>
 
-<form style="text-align: center; align-self: center;">
-    <label for="name">Your Name:</label><br>
-    <input style="border: width 50px;border-radius: 25px; height: 25px;" type="text" autocapitalize="characters" autocomplete="on" id="name" name="name"  placeholder="Your Name Goes Right Here"  >
-</form><BR>
-<form style="text-align: center; align-self: center;" >
-    <label for="email" >Your Email:</label><br>
-    <input style="border: width 50px;border-radius: 25px; height: 25px;" type="email" autocapitalize="characters" autocomplete="on" id="name" name="name"  placeholder="Your Email Goes Right Here"  >
+<<form action="submit-subscription.php" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <input type="submit" value="Subscribe">
+</form>
  
 
  
