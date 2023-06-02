@@ -1,115 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-<title>Car Catalog</title>
-<link rel="stylesheet" type="text/css" href="index.css"/>
-
-<meta charset="UTF-8">
-<meta name="keywords" content="HTML,CSS,JAVASCRIPT">
-<meta name="description" content="Static Website">
-<meta name="Author" content="Richard Djirackor">
-<meta http-equiv="refresh" content="70">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    h1 {
-         cursor: default;text-align: center;color: white;font: size 100px;background-color: blue;border-radius: 25px
-    }
-    body{background-color: white;}
-    #par{font-size: 40px;font-style: italic;font-family: 'Times New Roman', Times, serif;text-align: center;}
-    h2 {background-color:green ;border-radius: 25px;text-align: center}
-
-    img{cursor: pointer;background-color: blue;}
-    img:hover {border: 25px solid red;  box-shadow: 0 0 10px darkblue;  -webkit-box-shadow: 0 0 10px darkblue;  -moz-box-shadow: 0 0 10px darkblue;  -o-box-shadow: 0 0 10px darkblue;  -ms-box-shadow: 0 0 10px darkblue;width: 280px;height: 220px;border-color: red;}
-    
-
-    #OI{cursor: default;opacity: 0.9;text-align: center;color:black;background-color:yellow;border-radius: 50px
-}
-h3 {text-align: center;}
-#uio {text-align: center;}
-p{font-size: 15px;}
-form{ text-align: center}
-.heyya{ text-align:center}
-
-
-        
-    
-</style>
-
-
+  <title>Shopping Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h1>Your Car Purchase Advisor</h1>
-    <div id="par"><h4>Unleash the Power of your Dream Ride: Your Ultimate Guide to the Top Cars</h4>
-   
-    <p><a href="contact.html">contact>></a><a href="address.html">address</a>
+  <section class="clothes-section">
+    <h2>Featured Clothes</h2>
+    <div class="clothes-line">
+      <img src="2022.jpg" alt="Clothing Item">
+      <img src="2022.png" alt="Clothing Item">
+      <img src="2022.webp" alt="Clothing Item">
     </div>
-    <h2>2022 Models</h2>
+    <div class="clothes-line">
+      <img src="download.jpg" alt="Clothing Item">
+      <img src="20198.jpg" alt="Clothing Item">
+      <img src="blackmarvel.png" alt="Clothing Item">
     </div>
-       <div class="row">
-       <div class="column"> <div class="content_img"><img src="2022.png"height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:650hp<br>Price:$82,460</H3></div></div>
-       </div>
-       <div class="column"> <div class="content_img"><img src="20198.jpg" height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:560hp<br>Price:$65,990</H3></div></div></div>
-       <div class="column"> <div class="content_img"><img src="2020u.jpg" height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:577hp<br>Price:$46,780</H3></div></div></div>
-       <div class="column"> <div class="content_img"><img src="202213.jfif"height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:960hp<br>Price:$111,100</H3></div></div></div>
-       </div>   
-       <div class="row">
-       <div class="column"> <div class="content_img"><img src="download.jpg"height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:260hp<br>Price:$11,780</H3></div></div></div>
-       <div class="column"> <div class="content_img"><img src="2022.webp" height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:570hp<br>Price:$77,780</H3></div></div></div>
-       <div class="column"> <div class="content_img"><img src="202212.jfif"height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:1020hp<br>Price:$55,780</H3></div></div></div>
-       <div class="column"> <div class="content_img"><img src="images.jpg"height="200" width="250"alt="A 2022 vehicle" style="border: 25px;border-radius: 35px;cursor: pointer;float: left; margin-right: 1%; margin-bottom: 0.5em;"><div><H3>Horsepower:360hp<br>Price:$12,980</H3></div></div></div>
-    </div>
-    <div id="OI">
-        <h4>To place an order click<a href="https://cars.com"> here</a></h4></div>
+  </section>
 
-    <h2>2021 Models</h2>
-    <div class="row">
-    <div class="column"> <div class="content_img"> <img src="justcallit2021.jpg" height="200" width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:560hp<br>Price:$65,780</H3></div></div></div>
-    <div class="column"> <div class="content_img"><img src="20202.jpg "height="200" width="250"usemap="#picmap"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:460hp<br>Price:$45,780</H3></div></div></div>
-    <div class="column"> <div class="content_img"><img src="2020r.jpg "height="200" width="250"usemap="#picmap"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:780hp<br>Price:$34,780</H3></div></div></div>
-    <div class="column"> <div class="content_img"> <img src="download (1).jpg"height="200" width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:630hp<br>Price:$46,890</H3></div></div></div>
-    </div>
-   
-    <div class="row">
-    <div class="column"> <div class="content_img"> <img src="yellowbeauty.png"height="200" usemap="#picmap"width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:690hp<br>Price:$23,780</H3></div></div></div>
-    <div class="column"> <div class="content_img"> <img src="bluecar.jpg"height="200"usemap="#picmap" width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:900hp<br>Price:$85,780</H3></div></div></div>
-    <div class="column"> <div class="content_img"> <img src="carro.jpg"height="200"usemap="#picmap" width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:560hp<br>Price:$24,080</H3></div></div></div>
-    <div class="column"> <div class="content_img"> <img src="2021 (2).jpg" usemap="#picmap"height="200" width="250"alt="A 2021 vehicle" style="border: 25px;border-radius: 35px;"><div><H3>Horsepower:560hp<br>Price:$60,780</H3></div></div></div>
-    </div>
-    
-       <div id="uio"> <h4>For more visit <br>
-            
-               <a href="https://www.google.com/search?q=2020+cars&sxsrf=ALiCzsaxc3ndUTxd_wAPEc3mVFr_x6eQBg%3A1651503647250&source=hp&ei=H_JvYrLaDb6BhbIPoO65mA0&iflsig=AJiK0e8AAAAAYnAAL2jvCy2j_SLwzXiyXJNP5SMLt8z6&ved=0ahUKEwjy5fPBisH3AhW-QEEAHSB3DtMQ4dUDCAc&uact=5&oq=2020+cars&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEUAtY7AJgzQ5oAHAAeACAAYsJiAGLCZIBAzctMZgBAKABAQ&sclient=gws-wiz"><b>2020 models</b></a><br>
-               <a href="https://www.google.com/search?q=2019+cars&sxsrf=ALiCzsZVPn-2mSAVDStwC7BSV_796MZT8g%3A1651503658804&ei=KvJvYtfYMMKalwTlxrb4Dg&ved=0ahUKEwjXlbbHisH3AhVCzYUKHWWjDe8Q4dUDCA4&uact=5&oq=2019+cars&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB46CggAEEcQsAMQyQM6BwgAEEcQsAM6BwgAELADEEM6CggAEOQCELADGAE6EgguEMcBENEDEMgDELADEEMYAjoSCC4QxwEQowIQyAMQsAMQQxgCSgQIQRgASgQIRhgBUK4FWM8TYNAdaAFwAXgAgAG9D4gB6CeSAQc1LTIuOC0ymAEAoAEByAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz"><b>2019 models</b></a><br>
-               <a href="https://www.google.com/search?q=2018+cars&sxsrf=ALiCzsYnMvtqutdw-02EEm74JNmT2XmRVw%3A1651503803704&ei=u_JvYunCKpKVlwT7x534Dg&ved=0ahUKEwipjMKMi8H3AhWSyoUKHftjB-8Q4dUDCA4&uact=5&oq=2018+cars&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyCggAEEcQsAMQyQMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyEgguEMcBENEDEMgDELADEEMYAjISCC4QxwEQowIQyAMQsAMQQxgCMhIILhDHARCjAhDIAxCwAxBDGAIyEgguEMcBEKMCEMgDELADEEMYAkoECEEYAEoECEYYAVDABFjICmD3EGgBcAF4AIABAIgBAJIBAJgBAKABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz"><b>2018 models</a><br>
-                <a href="https://www.google.com/search?q=more+cars&sxsrf=ALiCzsaIJCqZu6nt0G46NV7gjCbLQpHq-A%3A1651503980120&ei=bPNvYtz_BuaEur4P-oSs-A4&ved=0ahUKEwjc5dHgi8H3AhVmgs4BHXoCC-8Q4dUDCA4&uact=5&oq=more+cars&gs_lcp=Cgdnd3Mtd2l6EAxKBAhBGABKBAhGGABQAFgAYABoAHAAeACAAQCIAQCSAQCYAQA&sclient=gws-wiz"><b>more</b></a><br>
-
-
-            
-
-
-        </h4>
-    </div>
-
-        <div class="heyya">
-           <p> Unfunctional and will be brought back on soon (reason: Some Changes are being made)</p>
-           </div>
- <h3>Subscribe to our free newsletter</h3>
-
-<form action="submit-subscription.php" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <input type="submit" value="Subscribe">
-</form>
- 
-
- 
-
-    
+  <footer>
+    <p>&copy; 2023 Your Website</p>
+  </footer>
 </body>
 </html>
